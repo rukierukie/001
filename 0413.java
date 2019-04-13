@@ -10,7 +10,7 @@ public class LambdaTest1 {
             f1 .method(3, 4);
             f2 = (a, b) -> { System. out.printin(a + b);};
             f2.method(5, 6);
-            f3 = (a,b) -> System.out.printin(a + b)
+            f3 = (a,b) -> System.out.printin(a + b);
             f3.method(7,8);
 
             f4 = (int a) -> { System.out.printin(a);};
